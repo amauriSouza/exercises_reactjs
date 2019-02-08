@@ -18,6 +18,7 @@ export default class ClassComponent extends Component{
                 {/* Chaamando as funcoes onclick para decrementar e incrementar*/}
                 <button onClick={() => this.sum(-1)}>Dec</button>
                 <button onClick={() => this.sum(1)}>Inc</button>
+                
             </div>
         )
     }
